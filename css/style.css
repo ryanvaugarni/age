@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+/* reset */
+html{
+    font-size: 62.5%;
+    margin: 0; 
+}
+body{
+    font: 1.6rem 'Dosis', sans-serif;
+    margin: 0;
+    background-color: rgba(52, 152, 219,0.1);
+}
+h1{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #fff;
+}
+h2{
+    margin: 0;
+    text-align: center;
+    color: #1C5882;
+
+}
+a{
+    text-decoration: none;
+    color: #222;
+}
+*{
+    box-sizing: border-box;
+}
+/* theme */
+legend{
+    font-size: 2.0rem;
+    color: #1C5882;
+
+}
+input{
+    outline: none;
+
+}
+:root{
+    --color-form: #ccc;
+    --color-button: #448aff;
+    --color-warning: #c80000;
+}
+header h1, h2{
+    font: 2rem 'Lobster', sans-serif;
+}
+header{
+    margin: 0;
+    background-color: #1C5882;
+}
+header h1{
+    text-align: center;
+    line-height: 6rem;
+    font-size: 4rem;
+}
+main{
+    max-width: 60rem;
+    margin: 0 auto;
+}
+fieldset{
+    background-color: rgb(245, 245, 245);
+    font-size: 1.7rem;
+}
+.form input, .form label{
+    display: block;
+    width: 100%;
+    margin-bottom: 1rem;
+
+}
+.form input{
+    border: solid .1rem #ccc;
+    line-height: 3.5rem;
+    padding: .5rem;
+}
+.form input[placeholder]{
+    font-size: 1.6rem;
+}
+/* submit */
+ form input[type="submit"]{
+    display: block;
+    line-height: 4rem;
+    text-align: center;
+    border:  .1rem ;
+    margin: .6rem auto 0;
+    background-color: #1C5882;
+    color: #fff;
+    border-radius: .5rem;
+    font-size: 1.6rem;
+}
+.warning, .success{
+    background-color: rgb(200, 0, 0);
+    color: #fff;
+    text-align: center;
+    margin-bottom: 1.0rem;
+    display: none;
+    line-height: 2.5rem;
+    padding: 1rem;
+}
+.success{
+    background-color: rgb(23, 135, 23);
+}
+/* pied de page */
+footer{
+    text-align: center;
+}
+ul{
+    text-align: center;
+}
